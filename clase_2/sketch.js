@@ -41,8 +41,6 @@ function draw() {
   let corte = logConv(mouseX, 0, width, 20, 20000);
   let sF = logConv(mouseY, 0, height, 20, 20000);
 
-  // let sF = logConv(sliderFrecuencia.value(),0,1,20,20000);
-
   voz.freq(sF);
   filtro.freq(corte);
   let r = 100 * sin(angulo);

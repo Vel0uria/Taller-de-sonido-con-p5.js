@@ -8,7 +8,7 @@ function preload() {
 
 function setup() {
   createCanvas(800, 800);
-  blendMode(LIGHTEST);
+  //blendMode(LIGHTEST);
   song.setVolume(0.8);
   stopButton = createButton("stop");
   button = createButton("jump");
